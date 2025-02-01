@@ -1,0 +1,42 @@
+:root{
+    --pink:#FCE4EC;
+    --red:#d01a1a;
+    /*--darkpink:;
+    --white:;*/
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a, h2{
+    text-decoration:none;
+    list-style-type: none;
+    /*font-family: ;
+    font-size: ;*/
+    color: red;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+    background-color: none;
+}
+
+.navLinks li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.navLinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover{
+    /*color:;*/
+}
+
+.intro h1,p{
+    display:center;
+}
